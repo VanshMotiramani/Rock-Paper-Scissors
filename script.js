@@ -23,3 +23,11 @@ function getComputerChoice() {
 }
 // let computerResult = getComputerChoice();
 console.log(getComputerChoice());
+
+// human choice
+function getHumanChoice() {
+    let humanChoice = prompt("Play your bet");
+    return humanChoice;
+}
+
+console.log(getHumanChoice());
